@@ -1,0 +1,111 @@
+/*录音组件*/
+.audiotape-wrap{
+    width: 80%;
+    height: 90%;
+    border-radius: 5px;
+    position: relative;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* display: none; */
+}
+.audiotape-close{
+    width: 100%;
+   display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.audiotape-text{
+    padding: 1rem 0;
+}
+.audiotape-close img{
+    width: 20px;
+    height: 20px;
+}
+.audiotape-micro{
+    width: 100%;
+    padding: 10px 0;
+}
+.audiotape-micro-ico{
+    width: 60px;
+    height: 60px;
+    border-radius: 61px;
+    background-color: #58A5FF;
+    box-shadow: 0 10px 10px 0 rgba(88,165,255,0.25);
+    margin: 0 auto;
+    position: relative;
+}
+.audiotape-micro-ico2{
+    width: 60px;
+    height: 60px;
+    border-radius: 61px;
+    background-color: #f5222d;
+    box-shadow: 0 10px 10px 0 rgba(88,165,255,0.25);
+    margin: 0 auto;
+    position: relative;
+}
+.audiotape-micro-ico>div{
+    height: 26px;
+    width: 26px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -13px 0 0 -13px;
+}
+.audiotape-micro-ico2>div{
+    height: 26px;
+    width: 26px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -13px 0 0 -13px;
+}
+.audiotape-state {
+    width: 100%;
+    padding: 5px 0;
+    color: #58A5FF;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+}
+.audiotape-detail {
+    width: 100%;
+    color: #2D3D5C;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    padding: 5px 0;
+}
+.audiotape-prompt{
+    padding: 5px 0;
+    width: 100%;
+    color: #A0A8B7;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1rem;
+    text-align: center;
+}
+.audiotape-save{
+    height: 16px;
+    width: 100%;
+    color: #A0A8B7;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: center;
+    display: none;
+}
+#audiotape-wave{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+

@@ -1,0 +1,229 @@
+/*备注组件*/
+.remark-wrap {
+
+    display: none;
+}
+
+.remark-box {
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.remark-header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remark-tit {
+    color: #2D3D5C;
+    font-size: 1.15rem;
+    line-height: 20px;
+}
+
+.remark-close {
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+.remark-close img {
+    width: 100%;
+    height: 100%;
+}
+
+.remark-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+
+.remark-detail {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #A0A8B7;
+
+}
+
+.remark-detail > div:nth-of-type(1) {
+
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-indent: 16px;
+
+}
+
+.remark-detail > div:nth-of-type(1) > span {
+    padding-right: 10px;
+}
+
+.remark-shop {
+
+}
+
+.remark-play {
+    width: 19px;
+    height: 17px;
+    margin-top: 12px;
+    margin-right: 10px;
+    display: none;
+}
+
+.remark-cam {
+    width: 20px;
+    height: 18px;
+    margin-top: 11px;
+    margin-right: 10px;
+}
+
+.remark-change {
+    width: 19px;
+    height: 18px;
+    margin-top: 11px;
+    margin-right: 10px;
+    display: none;
+}
+
+.remark-text {
+    width: 100%;
+    flex: 1 1 auto;
+    border: 1px solid #E0E7EE;
+    box-shadow: 0 1px 0 0 rgba(170, 170, 170, 0.01);
+    border-radius: 2px;
+    display: none;
+}
+
+.remark-img {
+    width: 100%;
+    padding: 10px;
+}
+
+.recodeImg {
+    width: 50px;
+    height: 50px;
+    margin:0 10px;
+}
+
+.remark-textarea {
+    min-height: 150px;
+    width: 100%;
+    /*border: 1px solid #E0E7EE;*/
+    border: none;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 0 0 rgba(170, 170, 170, 0.01);
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #2D3D5C;
+    outline: none;
+    resize: none;
+}
+
+.remark-textarea::-webkit-input-placeholder {
+    color: #D7DBE2;
+}
+
+.remark-save {
+    height: 30px;
+    width: 80px;
+    border: 1px solid #E0E7EE;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 0 0 rgba(170, 170, 170, 0.01);
+    color: #A0A8B7;
+    font-size: 12px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 30px;
+
+    float: right;
+    display: none;
+}
+.remark-savebox{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+.remark-show {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: #2D3D5C;
+    line-height: 20px;
+    padding:  10px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    display: none;
+    border: 1px solid #E0E7EE;
+}
+
+.viewImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.viewWrapper {
+    width: 80%;
+    height: 80%;
+    background: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 4px;
+
+}
+
+.viewWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.viewBox {
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.viewBox img {
+    width: 100%;
+}
+
+.viewAction {
+    height: 10%;
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-between;
+}
+
+.viewAction button {
+    /*font-size: 1.2rem;*/
+    /*height: 2.5rem;*/
+    /*line-height:2.5rem;*/
+}

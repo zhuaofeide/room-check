@@ -1,0 +1,143 @@
+.speech-wrap{
+    width: 100%;
+    height: 100%;
+    background-color: #F2F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.speech-header-box{
+    background-color: #FFFFFF;
+}
+.speech-header {
+    width: 100%;
+    border: 1px solid #EBECF0;
+
+    box-sizing: border-box;
+}
+.speech-arrow {
+    height: 20px;
+    width: 22px;
+    margin: 20px 0 20px 20px;
+    float: left;
+}
+.speech-arrow img{
+    width: 100%;
+    height: 100%;
+}
+.speech-tit {
+    flex: 1 0 auto;
+    line-height: 60px;
+    background-color: #FFFFFF;
+    /* width: 185px;     */
+    color: #A0A8B7;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.speech-main{
+    width: 100%;
+    height: 100%;
+    flex: 1 1 auto;
+    padding: 10px;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.speech-card{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    padding: 0px 20px;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+}
+.speech-card-msg{
+    width: 100%;
+    height: 33px;
+    text-align: right;
+    font-size: 0;
+}
+.speech-card-msg>span:nth-of-type(1){
+    padding-right: 20px;
+    color: #D7DBE2;
+    font-size: 14px;
+    box-sizing: border-box;
+    line-height: 33px;
+}
+.speech-again{
+    color: #EF6A7A;
+    font-size: 14px;
+    display: inline-block;
+    padding-right: 20px;
+    background-image: url("../images/error.png");
+    background-position: left center;
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    text-indent: 22px;
+    line-height: 18px;
+}
+.speech-delete{
+    display: inline-block;
+}
+.speech-delete img{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+}
+.speech-bar{
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+.speech-bar-pic {
+    height: 30px;
+    width:150px;
+    border-radius: 15px;
+    background-color: #A0A8B7;
+    padding: 7px 0 0 20px;
+    box-sizing: border-box;
+    float: left;
+}
+.speech-bar-pic img{
+    width: 14px;
+    height: 17px;
+}
+.speech-bar-time{
+    height: 30px;
+    color: #A0A8B7;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 10px;
+    float: left;
+}
+.speech-bar-tell{
+    width: 100%;
+    height: 20px;
+    color: #A0A8B7;
+    font-size: 14px;
+    line-height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.speech-chose{
+    display: inline-block;
+    padding-right: 20px;
+}
+.speech-chose img{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 4px;
+}
+.noData{
+    text-align: center;
+    font-size: 2rem;
+    color: #525B63;    
+    padding: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:30%;
+    left: 50%;
+}

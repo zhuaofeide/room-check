@@ -1,0 +1,228 @@
+.detail-header {
+    height: 60px;
+    width: 100%;
+    border: 1px solid #EBECF0;
+
+    display: none;
+}
+.detail-header-box{
+    width:100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.detail-bed{
+    height: 60px;
+    width: 185px;
+    color: #A0A8B7;
+    font-size: 1.2rem;
+    line-height: 60px;
+    text-align: center;
+    /*margin-left: 378px;*/
+    /*margin-right: 294px;*/
+    /*float: left;*/
+}
+.detail-daily {
+    width: 115px;
+    height: 1rem;
+    background-image: url("../images/daily.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 14px 1rem;
+    color: #A0A8B7;
+    font-size: 1rem;
+    line-height: 1rem;
+    text-indent: 20px;
+    margin-top: 22px;
+    float: left;
+}
+.detail-left {
+    flex: 0 0 160px;
+    height: 100%;
+    background-color: #FBFBFB;
+    margin-top: 1px;
+    border-right: 1px solid #EFEFEF;
+    box-sizing: border-box;
+    overflow: auto;
+    padding-bottom: 65px;
+}
+.detail-middle{
+    flex: 0 0 250px;
+    height: 100%;
+    padding: 10px;
+    overflow-y: scroll;
+    /*float: left;*/
+    display: none;
+    padding-bottom: 65px;
+}
+.detail-card{
+    height: 140px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 7px 0 rgba(0,0,0,0.07);
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+}
+.audioPlay{
+    position: absolute;
+    display: none;
+}
+.detail-card-now{
+    background-color: #F4F5F5;
+}
+.detail-right{
+    flex: 1 1 auto;
+    padding: 10px;
+    /*width:570px;*/
+    height: 100%;
+    overflow-y: scroll;
+    /*float: left;*/
+    display: none;
+}
+.detail-tab{
+    height: 60px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+}
+.detail-tab>span{
+    /*width: 120px;*/
+    height: 60px;
+    flex: 1;
+    color: #2D3D5C;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center ;
+    display: inline-block;
+    border-bottom: 4px solid transparent;
+    box-sizing: border-box;
+}
+.detail-tab>span:nth-of-type(1){
+    margin-right: 160px;
+}
+.detail-tab .detail-tab-click{
+    color: #58A5FF;
+    border-bottom: 4px solid #58A5FF;
+}
+.detail-box{
+position: relative;
+}
+.detail-show{
+    flex: 1;
+    width: 100%;
+    /*height: 645px;*/
+    overflow-y: scroll;
+}
+.detail-main{
+    width: 100%;
+    overflow: auto;
+    padding-bottom: 65px;
+    position: relative;
+}
+.detail-note{
+    width: 100%;
+    display: none;
+    padding-bottom: 65px;
+}
+.detail-write{
+    padding-right: 20px;
+    display: inline-block;
+}
+.detail-write img{
+    width: 19px;
+    height: 18px;
+    position: relative;
+    top: 3px;
+}
+.detail-text{
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+.detail-note-bar{
+    /*width: 493px;*/
+    height: 40px;
+    color: #A0A8B7;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /*margin-top: 10px;*/
+    /*width: 100%;*/
+    /*color: #A0A8B7;*/
+    flex: 1 1 auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: 26px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.detail-have{
+    flex:0 0 18px;
+    height: 14px;
+    margin-top: 13px;
+
+}
+.detail-have>img{
+    width: 100%;
+    height: 100%;
+}
+.detail-add{
+    height: 130px;
+    width: 100%;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-add img{
+    width: 42px;
+    height: 42px;
+}
+/*无病床*/
+.detail-nothing{
+    height: 171px;
+    width: 100%;
+    font-size: 1rem;
+    color: #707090;
+    text-align: center;
+    line-height: 170px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 7px 0 rgba(0,0,0,0.07);
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+}
+/*无语音*/
+.detail-nospeech{
+    width: 100%;
+    height: 110px;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 110px;
+    color: #707090;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 7px 0 rgba(0,0,0,0.07);
+    margin-bottom: 1px;
+}
+.recode-loader{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 40px;
+    top:10%;
+    left:50%;
+    text-align: center;
+}

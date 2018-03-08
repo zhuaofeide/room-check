@@ -1,0 +1,135 @@
+.chose-wrap{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: none;
+}
+.chose-box{
+    width: 80%;
+    height:70%;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:40%;
+    left: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chose-list{
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.chose-part{
+    flex: 1 ;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chose-part>p {
+    width: 100%;
+    color: #90A1B5;
+    font-size: 0.85rem;
+    line-height: 2rem;
+}
+.ant-cascader-picker{
+    height: 42px;
+    width: 120px;
+    color: #445870;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 0 0 rgba(170,170,170,0.01);
+    text-indent: 17px;
+}
+.ant-cascader-picker{
+    height: 42px;
+}
+.ant-cascader-input.ant-input{
+    height: 42px;
+}
+.ant-input{
+    border: 1px solid #E0E7EE;
+}
+.ant-cascader-picker-arrow{
+    right: 23px;
+}
+
+.chose-part>select>option{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    text-indent: 17px;
+}
+.chose-btn{
+    width: 100%;
+    /*height: 42px;*/
+    padding: 20px;
+    text-align: center;
+}
+.chose-btn>span:nth-of-type(1){
+    height: 42px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #58A5FF;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-align: center;
+    line-height: 42px;
+    box-shadow: 0 1px 0 0 rgba(170,170,170,0.01);
+    display: inline-block;
+    margin-right: 60px;
+}
+.chose-btn>span:nth-of-type(2){
+    height: 42px;
+    width: 120px;
+    border: 1px solid #E0E7EE;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 0 0 rgba(170,170,170,0.01);
+    line-height: 42px;
+    text-align: center;
+    font-size: 12px;
+    color: #A0A8B7;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.delete-wrap{
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /*position: relative;*/
+    display: none;
+}
+.delete-box{
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:40%;
+    left: 50%;
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.delete-diss {
+   padding: 2rem 0;
+    width: 100%;
+    color: #2D3D5C;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+
+}

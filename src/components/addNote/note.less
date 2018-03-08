@@ -1,0 +1,71 @@
+.add-content{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+
+
+}
+.remark-wrap-add{
+  height: 70%;
+  width: 80%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top:50%;
+  left:50%;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.add-mask{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.1);
+  z-index: 9999;
+}
+.close-content{
+  display: none;
+}
+
+.remark-textarea::-webkit-input-placeholder{
+  color: #D7DBE2;
+}
+.remark-add-box{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  height: 60px;
+}
+.remark-save-add{
+  height: 30px;
+  width: 80px;
+  border: 1px solid #E0E7EE;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 1px 0 0 rgba(170,170,170,0.01);
+  color: #A0A8B7;
+  font-size: 12px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height:30px;
+
+}
+.remark-text-add{
+  flex: 1 1 auto;
+  border: 1px solid #E0E7EE;
+}
+.remark-show-add{
+  width: 100%;
+  height: 240px;
+  font-size: 16px;
+  color: #2D3D5C;
+  line-height: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+
+}
